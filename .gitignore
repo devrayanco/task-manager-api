@@ -1,0 +1,26 @@
+# usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+
+
+# Compilacao
+
+bin/
+obj/
+
+# Migracao Banco de dados
+Migrations/
+
+# logs  sistema
+*.log
+*.log.*
+*.DS_Store
+
+
+
+
+
