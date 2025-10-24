@@ -87,7 +87,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowWebApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173", "http://localhost:8080", "http://localhost:4200", "http://localhost:3000") // Portas comuns de Vue, React, Angular
+            policy.WithOrigins("http://localhost:5173", "http://localhost:8080", "http://localhost:4200", "http://localhost:3000")
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
